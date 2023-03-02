@@ -266,6 +266,28 @@ img {
 }
 /* OurTeam-Section-Style */
 
+/* Customers-Section-Style */
+.customers-section {
+	background-color: var(--accent-text-background-color);
+	display: flex;
+	text-align: center;
+}
+.customers-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	color: var(--accent-text-color);
+	margin-bottom: 72px;
+}
+.customers-list {
+	display: flex;
+}
+.customers-item {
+}
+.customers-link {
+}
+
 /* footer-Style */
 .footer {
 	background-color: var(--accent-text-color);
