@@ -375,7 +375,6 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 	display: flex;
-	justify-content: center;
 }
 .footer-subject {
 	font-weight: 500;
@@ -384,15 +383,16 @@ img {
 	letter-spacing: 0.02em;
 	color: var(--accent-text-background-color);
 	margin-bottom: 16px;
+	display: flex;
 }
 .footer-section-icons {
 	display: flex;
+	gap: 16px;
+	justify-content: center;
 }
 .footer-section-item {
 }
 .footer-section-social-img {
-}
-.footer-section-svg {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -401,8 +401,8 @@ img {
 	border-radius: 50%;
 	background: rgba(255, 255, 255, 0.1);
 }
-.footer-section-svg:hover,
-.footer-section-svg:focus {
+.footer-section-social-img:hover,
+.footer-section-social-img:focus {
 	background: var(--hover-focus-icon-footer);
 }
 /* footer-Style */
